@@ -1,0 +1,15 @@
+### Проверка количества пользователей с флагом problems: true до изменения
+GET http://localhost:3000/user/problems-true-count
+Content-Type: application/json
+
+###
+
+### Запуск эндпоинта для изменения флагов
+POST http://localhost:3000/user/fix-problems
+Content-Type: application/json
+
+###
+
+### Проверка количества пользователей с флагом problems: true после изменения
+GET http://localhost:3000/user/problems-true-count
+Content-Type: application/json
