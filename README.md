@@ -1,7 +1,3 @@
-# EffectiveMobileTest
+# Тестовое задание для компании Effective Mobile.
 
-test2
-npm run docker:up
-npm run migration:dev
-npm run seed
-npm run start
+Инструкции по запуску находятся в файлах how-to-run.md
